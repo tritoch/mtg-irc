@@ -26,5 +26,7 @@ nicknames = {
     "Prime Time": "Primeval Titan",
     "O-Stone": "Oblivion Stone",
     "O Stone": "Oblivion Stone",
-    "Swagtusk": "Thragtusk"
+    "Swagtusk": "Thragtusk",
+    "King Cat": "Brimaz, King of Oreskos",
+    "King Kitty": "Brimaz, King of Oreskos"
 }
