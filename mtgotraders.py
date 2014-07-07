@@ -6,10 +6,7 @@ License: BSD 3 Clause License
 '''
 
 import urllib
-
-store_url = "http://www.mtgotraders.com/store/"
-price_api_url = ""  # Url can be obtained from MTGO Traders.
-
+import mtgotradersconfig
 
 def get_raw_list():
     file = urllib.urlopen(price_api_url)
