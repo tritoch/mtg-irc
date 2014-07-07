@@ -1,4 +1,5 @@
 *.py[co]
+mtgotradersconfig.py
 
 # Packages
 *.egg
