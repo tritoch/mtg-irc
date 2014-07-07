@@ -6,10 +6,10 @@ License: BSD 3 Clause License
 '''
 
 import urllib
-import mtgotradersconfig
+import mtgotradersconfig as config
 
 def get_raw_list():
-    file = urllib.urlopen(price_api_url)
+    file = urllib.urlopen(config.price_api_url)
     return file
 
 
@@ -26,7 +26,7 @@ def parse_list(price_file):
 
             if line_list[2] == "R":
                 card_dict[line_list[3].lower()][line_list[0]]["reg_price"] = line_list[5]
-                card_dict[line_list[3].lower()][line_list[0]]["link"] = store_url + line_list[6]
+                card_dict[line_list[3].lower()][line_list[0]]["link"] = config.store_url + line_list[6]
             else:
                 card_dict[line_list[3].lower()][line_list[0]]["foil_price"] = line_list[5]
 
